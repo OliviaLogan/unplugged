@@ -86,16 +86,18 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  /**
+  
    .content-wrapper{
-    border: 2px dotted red;
-   } **/
+    width: 90%;
+    margin: 50px 0;
+   } 
   
    /****** Base Header - Footer Mobile Styles ******/
    /*** Header ***/
    header{
     display: flex;
     justify-content: center;
+    padding: 15px 0;
    }
 
    header .content-wrapper{
@@ -103,11 +105,25 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0;
+   }
+
+   .header-divider{
+    width: 100%;
+    height: 1px;
+    margin: 10px 0 20px 0;
+   }
+
+   header nav{
+    width: 60%;
    }
 
    header nav ul{
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    margin: 0;
+    padding: 0;
    }
 
    /*** Footer ***/
@@ -116,6 +132,18 @@ textarea {
     flex-direction: column;
     align-items: center;
     text-align: center;
+   }
+
+   footer .content-wrapper{
+    width: 55%;
+   }
+
+   footer p{
+    margin: 0;
+   }
+
+   footer .contact{
+    margin-bottom: 50px;
    }
 
    footer .social-icons{
@@ -130,15 +158,15 @@ textarea {
     align-items: center;
    }
 
+   footer .copyright{
+    margin: 20px 0;
+   }
+
    /****** Main Homepage Mobile Styles ******/
    /*** Hero Section ***/
    .hero-section{
     display: flex;
     justify-content: center;
-   }
-
-   .hero-section .content-wrapper{
-
    }
 
    /*** Aside ***/
@@ -147,14 +175,29 @@ textarea {
     justify-content: center;
    }
 
-   aside .content-wrapper{
-
+   aside h3{
+    margin: 20px 0;
    }
+
+   aside p{
+    margin-bottom: 30px;
+   }
+
+
 
    /*** Features ***/
    .features{
     display: flex;
     justify-content: center;
+   }
+
+   .features h2{
+    margin-bottom: 60px;
+   }
+
+   .features article{
+    width: 63%;
+    padding: 30px 0;
    }
 
    .features .features-items{
@@ -164,10 +207,27 @@ textarea {
     flex-flow: row wrap;
    }
 
+   .features p{
+    margin: 0;
+   }
+
+   .features .fontawesome-icon{
+    margin-bottom: 40px;
+   }
+
    /*** Reviews ***/
    .reviews{
     display: flex;
     justify-content: center;
+   }
+
+   .reviews h2{
+    margin-bottom: 40px;
+   }
+
+   .reviews h3{
+    width: 55%;
+    margin: 20px 0;
    }
 
    /****** Main About Mobile Styles ******/
@@ -188,6 +248,10 @@ textarea {
     justify-content: center;
    }
 
+   .contact-content{
+    margin: 0;
+   }
+
    /****** Main FAQ Mobile Styles ******/
    .faq{
     display: flex;
@@ -199,6 +263,15 @@ textarea {
     justify-content: center;
     align-items: flex-start;
     flex-flow: row wrap;
+    margin-top: 50px;
+   }
+
+   .faq h2{
+    margin-bottom: 40px;
+   }
+
+  .faq-content{
+    margin-bottom: 50px;
    }
 
 /* ==========================================================================
