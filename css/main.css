@@ -95,14 +95,14 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   text-align: left;
+  color: #e2e3ed;
 }
 
 ul,
 ol {
   list-style-type: none;
-  font-size: 1.125em;
-  font-weight: bold;
-  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -110,9 +110,17 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 2.25em;
+  line-height: 43px;
+  font-weight: 500;
+}
+
 h2 {
   font-family: "Poppins", sans-serif;
   font-size: 1.875em;
+  font-weight: 500;
 }
 
 h3,
@@ -120,6 +128,7 @@ h4 {
   font-family: "Poppins", sans-serif;
   font-size: 1.125em;
   margin: 20px 0;
+  font-weight: 500;
 }
 
 p {
@@ -134,7 +143,7 @@ address {
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
-  border: dashed 5px red;
+  /** border: dashed 5px red; **/
 }
 
 /****** Base Header - Footer Mobile Styles ******/
@@ -143,6 +152,7 @@ header {
   display: flex;
   justify-content: center;
   padding: 15px 0;
+  background-color: #202322;
 }
 
 header .content-wrapper {
@@ -157,10 +167,14 @@ header .content-wrapper {
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
+  background-color: #3a3a3a;
 }
 
 header nav {
   width: 60%;
+  font-size: 1.125em;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 header nav ul {
@@ -177,6 +191,7 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  background-color: #202322;
 }
 
 footer .content-wrapper {
@@ -218,6 +233,34 @@ footer .copyright {
 aside {
   display: flex;
   justify-content: center;
+  background-color: #527158;
+}
+
+input[type=text] {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 1.125em;
+  font-weight: 500;
+box-sizing: border-box;
+width: 100%;
+font-style: italic;
+padding: 1em;
+color: #2a423a;
+margin-bottom: 20px;
+}
+
+input[type=button] {
+box-sizing: border-box;
+width: 100%;
+padding: 20px 0;
+margin-top: 20px;
+font-family: 'Poppins', Arial, Helvetica, sans-serif;
+font-size: 1.125em;
+font-weight: 500;
+background-color: #2a423a;
+color: #e2e3ed;
+text-transform: uppercase;
+text-align: center;
+border: none;
 }
 
 aside h3 {
@@ -251,6 +294,7 @@ aside p {
 }
 
 .features p {
+  text-align: center;
   margin: 0;
 }
 
@@ -262,10 +306,12 @@ aside p {
 .reviews {
   display: flex;
   justify-content: center;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 30px;
 }
 
 .reviews h3 {
@@ -278,6 +324,7 @@ aside p {
 .mission {
   display: flex;
   justify-content: center;
+  background-color: #527158;
 }
 
 /*** Map ***/
@@ -288,6 +335,7 @@ aside p {
 .contact-section {
   display: flex;
   justify-content: center;
+  background-color: #2a423a;
 }
 
 .contact-content {
@@ -298,6 +346,7 @@ aside p {
 .faq {
   display: flex;
   justify-content: center;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -310,10 +359,15 @@ aside p {
 
 .faq h2 {
   margin-bottom: 40px;
+  line-height: 30px;
 }
 
 .faq-content {
   margin-bottom: 50px;
+}
+
+.faq-content h4 {
+  line-height: 42px;
 }
 
 /* ==========================================================================
