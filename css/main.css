@@ -366,10 +366,10 @@ textarea {
 @media only screen and (min-width: 768px) {
 /* Tablet Styles */
 
-/* General Styles */
+/* General */
 .content-wrapper {
- max-width: 640 px;
- margin: 100 px 0;
+ max-width: 640px;
+ margin: 100px 0;
 }
 
 /* Header */
@@ -473,16 +473,17 @@ display: flex;
 justify-content: space-between;
 align-items: flex-start;
  }
+
 /* FAQ */ 
 .faq .contact-wrapper {
   justify-content: space-between;
 }
 
-.faq-content{
+.faq-content {
   flex-basis: 45%;
 }
 
-.faq h2{
+.faq h2 {
   width: 100%;
 }
 
@@ -491,6 +492,65 @@ align-items: flex-start;
 @media only screen and (min-width: 1200px){
   /* Desktop Styles */
   
+  /* General */
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+  /* Header */
+  header {
+    padding: 15px 0;
+  }
+
+  /* Hero */
+  .hero-section h2{
+    width: 80%;
+  }
+
+  /* Aside */
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+width: 30%;
+}
+
+  /* Features*/
+  .features h2 {
+    width: 90%;
+  }
+
+  .features article {
+    flex-basis: 33%;
+  }
+
+  /* Reveiws */
+  .reviews h2 {
+    margin-bottom: 50px;
+  }
+
+  .reviews article div {
+    width: 42%;
+  }
+
+  /* Footer */
+  footer .content-wrapper {
+    width: 100%;
+  }
+
+  /* About */
+  .mission h2,
+  .contact-section .contact-wrapper h2 {
+    width: 90%;
+  }
+
+  /* FAQ */
+  .faq h2 {
+    width: 100%;
+  }
+
 }
 
 
