@@ -136,6 +136,14 @@ p {
   line-height: 18px;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
 address {
   font-style: normal;
 }
@@ -161,6 +169,10 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
 }
 
 .header-divider {
@@ -227,6 +239,9 @@ footer .copyright {
 .hero-section {
   display: flex;
   justify-content: center;
+  background: url(../img/unplugged-retreat.jpg) center no-repeat #3a3a3a;
+  background-size: cover;
+  min-height: 500px;
 }
 
 /*** Aside ***/
@@ -275,6 +290,8 @@ aside p {
 .features {
   display: flex;
   justify-content: center;
+  background: url('../img/unplugged-retreat-features.jpg') center no-repeat #3a3a3a;
+  background-size: cover;
 }
 
 .features h2 {
@@ -467,9 +484,28 @@ aside p {
     margin: 100px 0;
   }
 
+  h1 {
+    font-size: 3em;
+    line-height: 48px;
+  }
+
+  h2 {
+    font-size: 2.25em;
+    line-height: 48px;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 30px;
+  }
+
   /* Header */
   header {
     padding: 33px 0;
+  }
+
+  header figure {
+    width: 30%;
   }
 
   header .content-wrapper {
@@ -486,6 +522,11 @@ aside p {
 
   .header-divider {
     display: none;
+  }
+
+  /* Hero */
+  .hero-section {
+    min-height: 700px;
   }
 
   /* Aside */
@@ -528,6 +569,10 @@ aside p {
     width: 49%;
   }
 
+  .reviews h3 {
+    margin: 0;
+  }
+
   /* Footer */
   footer .content-wrapper {
     width: 65%;
@@ -537,14 +582,21 @@ aside p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
   }
 
   footer .contact {
     margin-bottom: 0;
   }
 
+  footer h4 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+
   footer .copyright {
     width: 100%;
+    line-height: 18px;
   }
 
   /* About */
@@ -570,7 +622,7 @@ aside p {
   }
 
   /* FAQ */
-  .faq .contact-wrapper {
+  .faq .content-wrapper {
     justify-content: space-between;
   }
 
@@ -581,6 +633,17 @@ aside p {
   .faq h2 {
     width: 100%;
   }
+
+  .faq h4 {
+    font-size: 0.875em;
+    line-height: 15.75px;
+  }
+
+  .faq p {
+    font-size: 0.875em;
+    line-height: 15.75px;
+  }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -591,12 +654,33 @@ aside p {
     max-width: 960px;
   }
 
+  h1 {
+    font-size: 3.75em;
+  }
+
+  h2 {
+font-size: 2.25em;
+  }
+
+  h3, h4 {
+font-size: 1.875em;
+  }
+
+  p {
+font-size: 1.125em;
+line-height: 24px;
+  }
+
   /* Header */
   header {
     padding: 15px 0;
   }
 
   /* Hero */
+  .hero-section {
+    min-height: 450px;
+  }
+
   .hero-section h2 {
     width: 80%;
   }
@@ -626,7 +710,7 @@ aside p {
   }
 
   .reviews article div {
-    width: 42%;
+    width: 49%;
   }
 
   /* Footer */
@@ -638,12 +722,25 @@ aside p {
   .mission h2,
   .contact-section .contact-wrapper h2 {
     width: 90%;
+    font-size: 3em;
   }
 
   /* FAQ */
   .faq h2 {
     width: 100%;
+    font-size: 3em;
   }
+
+  .faq h4 {
+    font-size: 1.125;
+    line-height: 18px;
+  }
+
+  .faq p {
+    font-size: 1.125;
+    line-height: 18px;
+  }
+
 }
 
 /* ==========================================================================
