@@ -623,6 +623,10 @@ aside p {
     width: 45%;
   }
 
+  .map figure {
+    padding-bottom: 55%;
+  }
+
   .contact-section .contact-wrapper h2 {
     width: 80%;
   }
@@ -735,6 +739,10 @@ line-height: 24px;
   .contact-section .contact-wrapper h2 {
     width: 90%;
     font-size: 3em;
+  }
+
+  .map figure {
+    padding-bottom: 45%;
   }
 
   /* FAQ */
