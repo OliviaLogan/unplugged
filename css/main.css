@@ -228,6 +228,8 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 3.75em;
+  margin-bottom: 50px;
 }
 
 footer .copyright {
@@ -310,13 +312,14 @@ aside p {
   flex-flow: row wrap;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features p {
   text-align: center;
   margin: 0;
-}
-
-.features .fontawesome-icon {
-  margin-bottom: 40px;
 }
 
 /*** Reviews ***/
@@ -569,6 +572,10 @@ aside p {
 
   .features h2 {
     margin-bottom: 20px;
+  }
+
+  .features i {
+    margin-bottom: 30px;
   }
 
   /* Reviews */
