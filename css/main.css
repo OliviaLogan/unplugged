@@ -208,6 +208,11 @@ footer {
 
 footer .content-wrapper {
   width: 55%;
+  margin: 0;
+}
+
+footer .footer-content {
+  margin: 50px 0;
 }
 
 footer p {
@@ -228,8 +233,14 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3.75em;
-  margin-bottom: 50px;
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+footer i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -606,11 +617,16 @@ aside p {
 
   footer .contact {
     margin-bottom: 0;
+    width: 35%;
   }
 
   footer h4 {
     font-size: 1.5em;
     margin-bottom: 40px;
+  }
+
+  footer .social {
+    width: 35%;
   }
 
   footer .copyright {
